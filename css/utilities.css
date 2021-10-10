@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-flex2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-flex3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.btn {
+    padding: 0.2rem 6rem;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 3.5rem;
+    font-family: 'Scheherazade New', serif;
+    border: 3px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    background: lightseagreen;
+    color: black;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.btn:hover{
+    background: white;
+}
+
